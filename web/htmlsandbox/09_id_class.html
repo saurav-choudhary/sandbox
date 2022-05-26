@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div, span, id and class</title>
+</head>
+<style>
+  .card {
+    border: 1px solid #ccc;
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  .enhance {
+    color: yellow;
+    background-color: black;
+  }
+</style>
+<body>
+  <div>
+    <h1 id="main-header" class="card">My website</h1>
+    <p>A site about me</p>
+  </div>
+  <ul id=main-nav>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <div id="about" class="card">
+    <h3>About</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae architecto <span class="enhance">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque nam, aut adipisci cupiditate voluptatum perferendis modi tempora cum rem dolore.</span> maxime, sunt numquam iusto quas expedita quod harum doloremque reiciendis!</p>
+  </div>
+  <div id="contact" class="card">
+    <h3>Contact</h3>
+    <ul>
+      <li>Address: 50 main st, Boston MA</li>
+      <li>Phone: (555) 555-55555</li>
+      <li>Email: me@somethingcool.com</li>
+    </ul>
+  </div>
+  <div id="footer">
+    <p>Copyright &copy; 2019</p>
+  </div>
+</body>
+</html>
